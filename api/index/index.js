@@ -19,7 +19,18 @@ const getCoupon = async () => { //轮播图
 	})
 	return data
 }
+/**
+ * 获取图片
+ */
+const getGroup = async () => { //轮播图
+	let data = await api({
+		url: '/group',
+		method:"GET"
+	})
+	return data
+}
 export {
 	swiper,
-	getCoupon
+	getCoupon,
+	getGroup
 }

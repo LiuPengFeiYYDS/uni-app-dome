@@ -1,6 +1,5 @@
 const appId='bd9d01ecc75dbbaaefce'
 const api = (params) => {
-	console.log("esss",params);
 	let URL = "http://demonuxtapi.dishait.cn/mobile" //域名
 	return new Promise((resolve, reject) => {
 		uni.showLoading({
